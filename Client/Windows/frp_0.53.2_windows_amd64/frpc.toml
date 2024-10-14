@@ -1,0 +1,75 @@
+serverAddr = "server.or.ip"
+serverPort = 7001
+transport.protocol = "kcp"
+auth.method = "token"
+auth.token = "1123376988"
+
+[[proxies]]
+name = "remote"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 3389
+remotePort = 3390
+
+[[proxies]]
+name = "p2p_1"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 47984
+remotePort = 47984
+
+[[proxies]]
+name = "p2p_2"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 47989
+remotePort = 47989
+
+[[proxies]]
+name = "p2p_3"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 48010
+remotePort = 48010
+
+[[proxies]]
+name = "p2p_4"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 5353
+remotePort = 5353
+
+[[proxies]]
+name = "p2p_5"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 47998
+remotePort = 47998
+
+[[proxies]]
+name = "p2p_6"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 47999
+remotePort = 47999
+
+[[proxies]]
+name = "p2p_7"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 48000
+remotePort = 48000
+
+[[proxies]]
+name = "p2p_8"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 48002
+remotePort = 48002
+
+[[proxies]]
+name = "p2p_8"
+type = "udp"
+localIP = "127.0.0.1"
+localPort = 48010
+remotePort = 48010

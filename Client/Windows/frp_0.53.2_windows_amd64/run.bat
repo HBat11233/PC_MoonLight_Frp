@@ -1,0 +1,1 @@
+python D:\Frp\frp_0.53.2_windows_amd64\run.py
