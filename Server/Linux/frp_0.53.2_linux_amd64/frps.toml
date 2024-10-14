@@ -1,0 +1,10 @@
+bindAddr = "0.0.0.0"
+bindPort = 7001
+kcpBindPort = 7001
+
+vhostHTTPPort = 8080
+vhostHTTPSPort = 443
+
+auth.method = "token"
+auth.token = "1123376988"
+
